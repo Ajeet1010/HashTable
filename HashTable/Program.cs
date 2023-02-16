@@ -24,7 +24,12 @@ namespace HashTable
                     hashTabe.Add(word.ToLower(), 1); //to,1 
             }
             Console.WriteLine("Displaying after add operation\n---------------------------------");
-            Console.WriteLine("Word      NumberOfFrequency");
+            Console.WriteLine("Word                 NumberOfFrequency");
+            hashTabe.Display();
+            string s = "avoidable";
+            hashTabe.Remove(s);
+            Console.WriteLine("\n------------  After removing avoidable word from paragraph  ----------------------", s);
+            Console.WriteLine("After removed word:  {0}\n----------------------------------\n", s);
             hashTabe.Display();
         }
     }
