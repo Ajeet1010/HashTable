@@ -104,7 +104,7 @@ namespace HashTable
                 linkedList = new LinkedList<KeyValue<K, V>>();
                 items[position] = linkedList;
             }
-            return linkedList;
+            return linkedList;      //
         }
         public void Display()
         {

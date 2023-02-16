@@ -6,10 +6,8 @@ namespace HashTable
     {
         static void Main(string[] args)
         {
-            string paragraph = "To be or not to be";
+            String paragraph = "Paranoids are not paranoid because they are paranoid but because they keep putting themselves deliberately into paranoid avoidable situations";
             CountNumbOfOccurence(paragraph);
-            Console.Write("\nPress any key to continue...... ");
-
         }
         
         public static void CountNumbOfOccurence(string paragraph)
